@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style link="css/style.css"></style>
+</head>
+<body>
+	
+	<%- include public/header.ejs %>
+
+	<% for(var i=0;i<name.length;i++) {%>
+	<div><%= name[i] %></div>
+	<% }%>
+
+</body>
+</html>
